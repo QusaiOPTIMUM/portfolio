@@ -1,0 +1,86 @@
+.parent {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: -1rem;
+    margin-right: -1rem;
+}
+
+.div2 {
+    border-left: 1px solid ; 
+}
+
+.name {
+    text-align: center;
+    color: #3B38A0;
+}
+
+.tab {
+    margin-left: 0.5rem;
+    margin-right: 0.7rem;
+    border: 1px solid #456882;
+    background-color: #6E8CFB;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #456882;
+}
+
+body {
+    background-color: #AED6CF;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 0.3rem;
+}
+
+h2 {
+    margin-left: 0.5rem ;
+    margin-bottom: auto;
+    color: #18be66;
+}
+
+p {
+    margin-left: 0.5rem ;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    margin-left: 0.3rem;
+}
+
+.green {
+    color: #085717;
+}
+
+.aside {
+  position: sticky;
+  top: 0;
+  height: 400px;
+  overflow: hidden;
+  min-height: 0;
+  align-self: start; /* ensures sticky works inside grid */
+}
+
+.card {
+    background-color: white;
+    border: 1px solid blanchedalmond;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+}
+.skills-p {
+    text-align: center;
+}
+
+.skill-img{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
